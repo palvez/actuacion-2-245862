@@ -1,6 +1,6 @@
 resource "aws_security_group" "permitir-ssh" {
   name        = "Permitir_ssh"
-  description = "Permitir SSH trafico entrante"
+  description = "Permitir trafico SSH entrante"
   vpc_id      = aws_vpc.pa245862-vpc.id
 
   ingress {
